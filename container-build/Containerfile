@@ -1,11 +1,2 @@
-FROM do288-local
-
-EXPOSE 8080
-
-#RUN sed -i "" 
-
-
-
-
-
-USER 1001
+# Use the httpd-parent image as base
+FROM quay.io/redhattraining/httpd-parent
