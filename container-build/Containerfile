@@ -1,4 +1,4 @@
-FROM localhost/do288-test
+FROM quay.io/a9095831/do288-local
 
 EXPOSE 8080
 
